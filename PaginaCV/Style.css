@@ -27,7 +27,7 @@
   body {
     margin: 0;
     font-family: Arial, sans-serif;
-    background-color: #000000;
+    background-color: #F3E9E9;
     padding: 0;
     color: #ffffff;
     font-size: 16px;
@@ -50,6 +50,7 @@
   h1 {
     font-size: 2em;
     margin: 0.67em 0;
+    background-color: #E6B8B8;
   }
   
   /* Grouping content
@@ -85,6 +86,7 @@
   
   a {
     background-color: transparent;
+    color: #F6C5C5;
   }
   
   /**
@@ -339,7 +341,7 @@
     display: list-item;
   }
   
-  /* Misc
+  /* MiscMiguel Rivera
      ========================================================================== */
   
   /**
@@ -399,10 +401,11 @@
     font-weight: bold;
     text-transform: uppercase;
     letter-spacing: 2px;
-    color: #d7d7d7;
+    color: blue;
   }
   
   .main li {
+    color: black;
     margin-bottom: 20px;
     font-family: 'Helvetica Neue', sans-serif;
     font-weight: lighter;
@@ -416,7 +419,7 @@
     font-weight: bold;
     text-transform: uppercase;
     letter-spacing: 1px;
-    color: #d7d7d7;
+    color: teal;
   }
   
   .main p {
