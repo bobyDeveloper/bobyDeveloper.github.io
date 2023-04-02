@@ -1,3 +1,3 @@
-alert("Bienvenido al CV de BobyDeveloper");
+//alert("Bienvenido al CV de BobyDeveloper");
 
-document.write("BobyDev");
+//document.write("BobyDev");

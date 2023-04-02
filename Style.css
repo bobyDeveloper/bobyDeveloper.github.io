@@ -110,7 +110,7 @@
   }
   
   /**
-   * 1. Correct the inheritance and scaling of font size in all browsers.
+   * 1. Correct the inheritance and scaling o20f font size in all browsers.
    * 2. Correct the odd `em` font sizing in all browsers.
    */
   
@@ -247,7 +247,7 @@
    * 2. Correct the color inheritance from `fieldset` elements in IE.
    * 3. Remove the padding so developers are not caught out when they zero out
    *    `fieldset` elements in all browsers.
-   */
+   */20
   
   legend {
     box-sizing: border-box; /* 1 */
@@ -381,7 +381,7 @@
     font-size: 36px;
     margin-bottom: 10px;
     font-family: 'Courier New', Courier, monospace;
-    font-weight: bold;
+    font-weight: bold;20
     text-transform: uppercase;
     letter-spacing: 2px;
   }
@@ -454,4 +454,9 @@
   
   a:hover {
     color: #f92672;
+  }
+
+  #sub {
+    color: blueviolet;
+    text-decoration-style: solid;
   }
