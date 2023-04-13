@@ -2,18 +2,17 @@ var base;
 var altura;
 var area;
 
-function calcularArea(){
-    var baseElement = document.getElementById("base");
-    var alturaElement = document.getElementById("altura");
-    base = baseElement.value;
-    altura = alturaElement.value;
-    console.log(base);
-    console.log(altura);
+function calcularArea() {
+	var baseElement = document.getElementById("base");
+	var alturaElement = document.getElementById("altura");
+	base = baseElement.value;
+	altura = alturaElement.value;
+	console.log(base);
+	console.log(altura);
 
-    area = (base * altura)/2;
+	area = (base * altura) / 2;
+	console.log(area);
 
-    console.log(area);
-
-    var alturaElement = document.getElementById("resultado");
-    alturaElement.innerHTML = 'Area = ' + area;
-   }
+	var areaElement = document.getElementById("resultado")
+	areaElement.innerHTML = 'Area = ' + area;
+}
